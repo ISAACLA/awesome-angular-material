@@ -5,7 +5,9 @@ html,
 body {
   height: 100%;
 }
+
 body {
+  height: 100%;
   margin: 0;
   //   font-family: Roboto, "Helvetica Neue", sans-serif;
   //   font-family: "Exo 2", sans-serif;
@@ -13,4 +15,9 @@ body {
   background-color: #424242;
   //color: whitesmoke;
   color: orange;
+}
+
+
+.container {
+  padding: 32px 48px;
 }
