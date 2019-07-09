@@ -3,8 +3,6 @@
   <h1 class="carousel__title">carousel</h1>
 
   <div class="carousel__content">
-    <mat-grid-list cols="12" style="border: 1px solid red">
-      <mat-grid-tile colspan="10" rowspan="6">
         <ngx-slick-carousel class="carousel"
                             #slickModal="slick-carousel"
                             [config]="slideConfig"
@@ -13,21 +11,8 @@
                             (afterChange)="afterChange($event)"
                             (beforeChange)="beforeChange($event)">
           <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-            <img [src]="slide.img" alt="" width="100%">
+            <img [src]="slide.img" alt="avengers" class="image">
           </div>
         </ngx-slick-carousel>
-      </mat-grid-tile>
-    </mat-grid-list>
   </div>
-
-
-  <!--<mat-grid-list cols="4" rowHeight="100px">-->
-    <!--<mat-grid-tile-->
-      <!--*ngFor="let tile of tiles"-->
-      <!--[colspan]="tile.cols"-->
-      <!--[rowspan]="tile.rows"-->
-      <!--[style.background]="tile.color">-->
-      <!--{{tile.text}}-->
-    <!--</mat-grid-tile>-->
-  <!--</mat-grid-list>-->
 </div>

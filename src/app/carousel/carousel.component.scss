@@ -2,7 +2,27 @@
 
   &__title{
     text-transform: uppercase;
+    margin: 0 !important;
     text-align: center;
   }
+
+  &__content{
+    display: inline-block;
+    margin: auto;
+  }
+
+  .slide{
+    width: 900px;
+    height: 600px;
+  }
+
+  .image{
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+
+
 
 }
