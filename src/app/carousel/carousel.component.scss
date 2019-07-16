@@ -3,6 +3,7 @@
 
   &__title{
     text-transform: uppercase;
+    margin: 0 !important;
     text-align: center;
     margin: 0 !important;
   }
@@ -23,6 +24,7 @@
     border: 3px solid white !important;
   }
 
+<<<<<<< HEAD
 
   .slide {
     //border: 3px solid red;
@@ -42,4 +44,25 @@
 .slick-list{
   width: 900px !important;
   border: 3px solid white !important;
+=======
+  &__content{
+    display: inline-block;
+    margin: auto;
+  }
+
+  .slide{
+    width: 900px;
+    height: 600px;
+  }
+
+  .image{
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+
+
+
+>>>>>>> a92a707d5cad48d4b7fda2fa5a9c231bfb14178b
 }
