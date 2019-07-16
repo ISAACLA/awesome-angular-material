@@ -1,7 +1,6 @@
+.carousel {
 
-.carousel{
-
-  &__title{
+  &__title {
     text-transform: uppercase;
     margin: 0 !important;
     text-align: center;
@@ -19,43 +18,22 @@
   //  border: 3px solid white !important;
   //}
 
-  .slick-list{
+  .slick-list {
     width: 900px !important;
     border: 3px solid white !important;
   }
 
-<<<<<<< HEAD
-
-  .slide {
-    //border: 3px solid red;
-    //width: 00px;
-    height: 600px;
-    //object-fit: cover;
-
-    img{
-      max-width: 900px;
-      max-height: 600px;
-      object-fit: cover;
-    }
-  }
-
-}
-
-.slick-list{
-  width: 900px !important;
-  border: 3px solid white !important;
-=======
-  &__content{
+  &__content {
     display: inline-block;
     margin: auto;
   }
 
-  .slide{
+  .slide {
     width: 900px;
     height: 600px;
   }
 
-  .image{
+  .image {
     width: 900px;
     height: 600px;
     object-fit: cover;
@@ -64,5 +42,4 @@
 
 
 
->>>>>>> a92a707d5cad48d4b7fda2fa5a9c231bfb14178b
 }
