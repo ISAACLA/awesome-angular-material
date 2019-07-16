@@ -1,8 +1,45 @@
+
 .carousel{
 
   &__title{
     text-transform: uppercase;
     text-align: center;
+    margin: 0 !important;
   }
 
+  //&__content{
+  //  border: 3px solid cyan;
+  //}
+
+  //.slick-list{
+  //  //max-width: 900px !important;
+  //  //min-width: 900px !important;
+  //  width: 900px !important;
+  //  border: 3px solid white !important;
+  //}
+
+  .slick-list{
+    width: 900px !important;
+    border: 3px solid white !important;
+  }
+
+
+  .slide {
+    //border: 3px solid red;
+    //width: 00px;
+    height: 600px;
+    //object-fit: cover;
+
+    img{
+      max-width: 900px;
+      max-height: 600px;
+      object-fit: cover;
+    }
+  }
+
+}
+
+.slick-list{
+  width: 900px !important;
+  border: 3px solid white !important;
 }
